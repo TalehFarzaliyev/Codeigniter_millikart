@@ -1,5 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-class Millikart {
+class Millikart_lib {
 	// config variables
 		private $mid;
 		private $secretkey;
