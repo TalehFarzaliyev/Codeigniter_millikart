@@ -12,12 +12,12 @@ class Millikart {
 	public 	$description;
 	public 	$amount;
 	public 	$reference;
-	public $ci;
+	public  $ci;
 
 	public function __construct () {
 		$CI = &get_instance();
 		$CI->load->config('millikart');
-		$this->mid 			= $CI->config->item('millikart_mid');
+		$this->mid 		= $CI->config->item('millikart_mid');
 		$this->secretkey 	= $CI->config->item('millikart_secret_key');
 		$this->status 		= $CI->config->item('millikart_status');
 		$this->currency 	= $CI->config->item('millikart_currency');
