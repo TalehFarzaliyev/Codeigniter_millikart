@@ -9,3 +9,4 @@ $config['millikart_pro_url']		= 'https://pay.millikart.az';
 $config['millikart_language']		= 'az'; //az/en/ru
 
 ?>
+ 
