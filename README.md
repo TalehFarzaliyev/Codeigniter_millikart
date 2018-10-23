@@ -1,5 +1,15 @@
 # Codeigniter_millikart
 Millikart ödəniş sisteminin Codeigniter Framework ilə istifadəsi.
+
+Autoload üçün
+    
+    public function __construct()
+    {
+        parent::__construct();
+        $this->load->library('millikart');
+    }
+
+
 Controllerdə bu şəkildə çağırıb sorğunuzu göndərə bilərsiniz
 
       $this->millikart->set($amount, $uniq_id, $description);
