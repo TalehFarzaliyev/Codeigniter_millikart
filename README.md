@@ -6,7 +6,7 @@ Autoload üçün
     public function __construct()
     {
         parent::__construct();
-        $this->load->library('millikart');
+        $this->load->library('millikart_lib','millikart');
     }
 
 
