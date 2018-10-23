@@ -9,10 +9,10 @@ class Millikart {
 		private $test_url;
 		private $pro_url;
 	// end config
-	public 	$description;
-	public 	$amount;
-	public 	$reference;
-	public  $ci;
+        public 	$description;
+        public 	$amount;
+        public 	$reference;
+        public  $ci;
 
 	public function __construct () {
 		$CI = &get_instance();
